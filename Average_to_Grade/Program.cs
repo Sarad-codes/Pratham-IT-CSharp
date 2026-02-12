@@ -12,7 +12,8 @@ class AverageToGrade
             Console.WriteLine($"Enter the marks{i + 1} number");
             while (!int.TryParse(Console.ReadLine(),out marks[i]))
             {
-                Console.WriteLine("Invalid input");
+                Console.WriteLine("Invalid inputt");
+                
             }
         }
 
